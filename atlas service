@@ -1,0 +1,5 @@
+appservices pull --remote=devicesync-vwhbj
+mv DeviceSync/* . && rm -r DeviceSync
+git add .
+git commit
+git push origin master
